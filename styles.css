@@ -1,1 +1,97 @@
-
+.navbar-light .navbar-nav .nav-link:hover{
+  color: pink;
+}
+.navbar-light .navbar-nav{
+  background-color: #D6E9FE;
+}
+.center{
+  justify-content: center;
+}
+.footer {
+margin-top: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: #D6E9FE;    /* Light blue */
+}
+.page {
+         margin: 0 auto;
+         justify-content: center;
+         text-align: center;
+         max-width: 600px;
+ }
+ .portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.hori-port {
+ display: grid;
+ grid-template: auto auto auto / 1fr 1fr;
+ grid-column-gap: 30px;
+ grid-row-gap: 30px;
+}
+ .about img {
+   width:50%;
+   height: auto;
+}
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+body{
+  text-align: center;
+  background-color: #D3D3D3;
+}
+p{
+  display: inline;
+}
+.content {
+  width: 100%;
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+}
+.content1 {
+  width: 100%;
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+}
+.content2 {
+  width: 100%;
+  display: flex;
+  background-color: orange;
+  justify-content: center;
+}
+.image img {
+  width:100%;
+  height: auto;
+}
+.h1{
+  font-size: xx-large;
+  background-color: purple;
+}
+.h2{
+  font-size: large;
+}
+@media only screen and (max-width: 650px){
+  .flexcontainer{
+  font-size: 8px;
+}
+}
+@media only screen and (min-width: 651px max-width: 1920px){
+  .flexcontainer{
+  font-size: large;
+}
+}
+@media only screen and (min-width: 1921px){
+  .flexcontainer{
+  font-size: xx-large;
+}
+}
